@@ -14,7 +14,7 @@ end
 
 def needs
   sleep 1
-  need = gets
+  need = gets.chomp
   puts 'Oh lovely! Good thing we have ' + need + ' in stock!'
 end
 
