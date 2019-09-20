@@ -11,16 +11,13 @@ sum = a + b + c + d
 # ask user for inputs for three values and calculate average
 puts "Welcome to triculator. It calculates the average of three numbers for you! Ready?"
 print "Pick your first number: "
-e = gets.chomp
-e = e.to_f
+e = gets.to_f
 
 print "Pick your second number: "
-f = gets.chomp
-f = f.to_f
+f = gets.to_f
 
 print "Pick your third number: "
-g = gets.chomp
-g = g.to_f
+g = gets.to_f
 
 puts "Your numbers were #{e}, #{f}, and #{g}."
 puts "Now we will calculate the average."
